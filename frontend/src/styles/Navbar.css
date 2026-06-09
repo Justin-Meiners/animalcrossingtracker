@@ -1,4 +1,3 @@
-
 .navbar {
     background-color: var(--green-deep);
     border-radius: var(--radius-lg);
@@ -10,12 +9,10 @@
     box-shadow: 0 4px 0 var(--green-shadow), 0 6px 20px rgba(0, 0, 0, 0.1);
     gap: 12px;
 }
-
 .links {
     display: flex;
     gap: 3px;
 }
-
 .link {
     font-family: var(--font-display);
     font-weight: 700;
@@ -26,14 +23,45 @@
     transition: background var(--transition-fast), color var(--transition-fast);
     text-decoration: none;
 }
-
+.link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-decoration: none;
+}
 .active {
     background-color: rgba(255, 255, 255, 0.2);
     color: #fff;
 }
 
-.link:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+
+.logo {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 1.2 rem;
     color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
     text-decoration: none;
+    flex-shrink: 0;
+}
+.logo:hover {
+    color: var(--yellow-sun);
+    text-decoration: none;
+}
+.logo-image {
+    height: 1.4rem;
+    width: auto;
+}
+.logoDot {
+    width: 30px;
+    height: 30px;
+    background: var(--yellow-sun);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    box-shadow: 0 2px 0 #c9a020;
+    flex-shrink: 0;
 }

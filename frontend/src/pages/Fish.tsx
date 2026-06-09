@@ -1,7 +1,11 @@
-import CritterCard from "../components/CritterCard"
+import Navbar from '../components/Navbar'
 function Fish () {
     return (
-        <div></div>
+        <>
+            <div>
+                Hello
+            </div>
+        </>
     )
 }
 
