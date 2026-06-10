@@ -1,16 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Nunito+Sans:wght@400;600&display=swap');
 
 :root {
+    --brown-wood: #A0713A;
     --green-deep: #3D8B37;
+    --green-leaf: #6DBF67;
+    --green-pale: #C8E6C4;
     --green-shadow: #256020;
     --yellow-sun: #FFD966;
+    --white-cloud: #FFFEF8;
+    --tan-dark: #E8D5A3;
+
 
     --radius-pill: 999px;
     --radius-lg: 18px;
 
 
     --font-display: 'Nunito', cursive;
+    --text-dark: #3D2B1F;
 
 
     --transition-fast: 150ms ease;
+    --transition-normal: 250ms ease;
+    --transition-bounce: 300ms cubic-bezier(0.68, -0.55, 0.27, 1.55); 
+
+    --shadow-card: 0 3px 0 #E8D5A3, 0 5px 16px rgba(122, 92, 64, 0.15);
 }

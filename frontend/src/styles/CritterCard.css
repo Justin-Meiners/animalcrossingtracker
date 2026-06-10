@@ -1,0 +1,49 @@
+.critter-card {
+    background: var(--white-cloud);
+    border: 2.5px solid var(--tan-dark);
+    border-radius: var(--radius-lg);
+    padding: 14px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    position: relative;
+    transition: 
+        transform var(--transition-bounce),
+        box-shadow var(--transition-normal),
+        border-color var(--transition-fast);
+    box-shadow: var(--shadow-card);
+    text-align: center;
+    user-select: none;
+}
+
+.critter-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 0 var(--tan-dark), 0 10px 26px rgba(122, 92, 64, 0.2);
+    border-color: var(--green-leaf);
+}
+.caught {
+    border-color: var(--green-leaf);
+    background: var(--green-pale);
+}
+.unavailable {
+    opacity: 0.45;
+    pointer-events: none;
+    filter: grayscale(50%);
+}
+.available-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--green-leaf);
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.critter-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}

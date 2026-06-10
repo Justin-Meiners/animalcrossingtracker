@@ -1,12 +1,12 @@
-import Navbar from '../components/Navbar'
-function Fish () {
+import CritterCard from "../components/CritterCard"
+import fish from "../../../backend/data/fish.json"
+function Fish() {
     return (
         <>
-            <div>
-                Hello
-            </div>
+            {fish.map((f) => (
+                <CritterCard key={f.id} {...f} />
+            ))}
         </>
     )
 }
-
 export default Fish

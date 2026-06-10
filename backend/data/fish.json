@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Cherry Salmon",
+        "id": 27,
+        "location": "River (clifftop)",
+        "shadow_size": "Small",
+        "sell_nook": 1000,
+        "sell_cj": 1500,
+        "image_url": "https://dodo.ac/np/images/d/db/Cherry_Salmon_NH_Icon.png",
+        "render_url": "https://dodo.ac/np/images/c/c0/Cherry_Salmon_NH.png",
+        "northern": {
+            "times_by_month": {
+                "1": null,
+                "2": null,
+                "3": {
+                    "start": 16,
+                    "end": 9,
+                    "label": "4 PM - 9 AM"
+                },
+                "4": {
+                    "start": 16,
+                    "end": 9,
+                    "label": "4 PM - 9 AM"
+                },
+                "5": {
+                    "start": 16,
+                    "end": 9,
+                    "label": "4 PM - 9 AM"
+                },
+                "6": {
+                    "start": 16,
+                    "end": 9,
+                    "label": "4 PM - 9 AM"
+                },
+                "7": null,
+                "8": null,
+                "9": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "10": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "11": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "12": null
+            }
+        }
+    }
+]

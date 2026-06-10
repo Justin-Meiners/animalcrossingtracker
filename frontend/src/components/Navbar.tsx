@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <nav className="navbar">
             <div className="logo">
-                <img src={navlogo} alt="Logo" className="logo-image" />
+                <img src={navlogo} alt="Logo" className="logoDot" />
                 Critterpedia
             </div>
             <div className="links">
