@@ -1,0 +1,45 @@
+.filter-bar {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: var(--radius-pill);
+    box-shadow: var(--shadow-card);
+    background: var(--white-cloud);
+    order: 2.5px solid var(--tan-dark);
+    margin-bottom: 14px;
+}
+
+.filter-label-text {
+    font-weight: 700;
+    font-size: .74rem;
+    font-family: var(--font-display);
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: .06rem;
+    white-space: nowrap;
+}
+.filter-pill {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.74rem;
+    padding: 4px 12px;
+    border-radius: var(--radius-pill);
+    border: 2px solid var(--tan-dark);
+    background: transparent;
+    color: var(--text-mid);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.filter-pill:hover {
+    border-color: var(--green-leaf);
+    color: var(--green-deep);
+}
+
+.filter-pill.on-green {
+    background: var(--green-leaf);
+    border-color: var(--green-deep);
+    color: #fff;
+    box-shadow: 0 2px 0 var(--green-deep);
+}

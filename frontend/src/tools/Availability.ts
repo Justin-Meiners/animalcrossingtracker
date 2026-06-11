@@ -1,7 +1,4 @@
-interface TimeWindow {
-    start: number;
-    end: number;
-}
+import { type TimeWindow } from "./../types/Critter.ts"
 
 function isAvailableNow(timesByMonth: Record<string, TimeWindow | null>): boolean {
     const now = new Date();
@@ -10,14 +7,12 @@ function isAvailableNow(timesByMonth: Record<string, TimeWindow | null>): boolea
 
     const window = timesByMonth[currentMonth];
     if (!window) {
-        return false; // Not available this month
+        return false;
     }
 
     if (window.start <= window.end) {
-        // Normal case: e.g., 9am to 5pm
         return currentHour >= window.start && currentHour < window.end;
     } else {
-        // Overnight case: e.g., 9pm to 4am
         return currentHour >= window.start || currentHour < window.end;
     }
 }

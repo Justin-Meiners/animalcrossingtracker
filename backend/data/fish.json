@@ -1,5 +1,79 @@
 [
     {
+        "name": "Sea Bass",
+        "id": 29,
+        "location": "Sea",
+        "shadow_size": "Medium",
+        "sell_nook": 400,
+        "sell_cj": 600,
+        "image_url": "https://dodo.ac/np/images/thumb/7/7f/Sea_Bass_NH_Icon.png/64px-Sea_Bass_NH_Icon.png",
+        "render_url": "https://dodo.ac/np/images/7/7f/Sea_Bass_NH.png",
+        "northern": {
+            "times_by_month": {
+                "1": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "2": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "3": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "4": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "5": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "6": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "7": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "8": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "9": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "10": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "11": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "12": {
+                    "start": 0,
+                    "end": 24,
+                    "label": ""
+                }
+            }
+        }
+    },
+    {
         "name": "Cherry Salmon",
         "id": 27,
         "location": "River (clifftop)",
