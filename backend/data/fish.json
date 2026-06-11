@@ -1,5 +1,105 @@
 [
     {
+        "name": "Oarfish",
+        "id": 30,
+        "location": "Sea",
+        "shadow_size": "Large",
+        "sell_nook": 1000,
+        "sell_cj": 1500,
+        "image_url": "https://dodo.ac/np/images/thumb/5/50/Oarfish_NH_Icon.png/64px-Oarfish_NH_Icon.png",
+        "render_url": "",
+        "northern": {
+            "times_by_month": {
+                "1": null,
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": null,
+                "7": null,
+                "8": null,
+                "9": null,
+                "10": null,
+                "11": null,
+                "12": null
+            }
+        }
+    },
+    {
+        "name": "Carp",
+        "id": 28,
+        "location": "River",
+        "shadow_size": "Large",
+        "sell_nook": 300,
+        "sell_cj": 450,
+        "image_url": "https://dodo.ac/np/images/thumb/5/5d/Carp_NH_Icon.png/64px-Carp_NH_Icon.png",
+        "render_url": "",
+        "northern": {
+            "times_by_month": {
+                "1": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "2": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "3": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "4": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "5": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "6": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "7": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "8": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "9": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "10": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "11": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                },
+                "12": {
+                    "start": 0,
+                    "end": 24,
+                    "label": "All day"
+                }
+            }
+        }
+    },
+    {
         "name": "Sea Bass",
         "id": 29,
         "location": "Sea",

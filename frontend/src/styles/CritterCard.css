@@ -29,7 +29,6 @@
 }
 .unavailable {
     opacity: 0.45;
-    pointer-events: none;
     filter: grayscale(50%);
 }
 .available-dot {

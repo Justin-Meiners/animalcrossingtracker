@@ -2,13 +2,13 @@ import './../styles/FilterBar.css'
 
 function FilterBar({ 
     showAvailabilityOnly, 
-    showCaughtOnly, 
+    showUncaughtOnly, 
     onToggleAvailable, 
     onToggleCaught,
  }:
     {
         showAvailabilityOnly: boolean,
-        showCaughtOnly: boolean,
+        showUncaughtOnly: boolean,
         onToggleAvailable: () => void,
         onToggleCaught: () => void
     }
@@ -20,7 +20,7 @@ function FilterBar({
                     onClick={onToggleAvailable}>
                     Available Now
                 </button>
-                <button className={"filter-pill" + (showCaughtOnly ? " on-green" : "")}
+                <button className={"filter-pill" + (showUncaughtOnly ? " on-green" : "")}
                     onClick={onToggleCaught}>
                     Uncaught Only
                 </button>
