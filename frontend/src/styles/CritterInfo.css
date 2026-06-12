@@ -98,10 +98,15 @@
         flex-direction: column;
     }
     .critter-info {
+        order: -1;
         height: auto;
-        position: static;
+        position: sticky;
+        top: 10px;
         flex: none;
         width: 100%;
         box-sizing: border-box;
+    }
+    .critter-grid {
+        order: 1;
     }
 }
