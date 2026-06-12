@@ -1,0 +1,97 @@
+.login-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 48px 16px;
+}
+
+.login-card {
+    background: var(--white-cloud);
+    border: 2.5px solid var(--tan-dark);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-card);
+    padding: 28px 26px;
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.login-title {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: var(--text-dark);
+    text-align: center;
+    margin: 0 0 12px;
+}
+
+.login-label {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-light);
+}
+
+.login-input {
+    font-family: inherit;
+    font-size: 0.9rem;
+    color: var(--text-dark);
+    background: var(--tan-light);
+    border: 2px solid var(--tan-dark);
+    border-radius: var(--radius-pill);
+    padding: 8px 14px;
+    outline: none;
+    transition: border-color var(--transition-fast);
+    margin-bottom: 6px;
+}
+
+.login-input:focus { border-color: var(--green-leaf); }
+
+.login-submit {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.88rem;
+    background: var(--green-leaf);
+    color: #fff;
+    border: none;
+    border-radius: var(--radius-pill);
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 3px 0 var(--green-deep);
+    margin-top: 10px;
+    transition: filter var(--transition-fast);
+}
+
+.login-submit:hover { filter: brightness(1.05); }
+.login-submit:active { transform: translateY(1px); }
+
+.login-switch {
+    background: none;
+    border: none;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.74rem;
+    color: var(--text-mid);
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+.login-switch:hover { color: var(--green-deep); }
+
+.login-error {
+    color: #8C3020;
+    background: var(--coral-pale);
+    border-radius: var(--radius-md);
+    padding: 8px 12px;
+    font-size: 0.8rem;
+    margin: 4px 0 0;
+}
+
+.login-hint {
+    font-size: 0.82rem;
+    color: var(--text-mid);
+    margin: 0 0 6px;
+}

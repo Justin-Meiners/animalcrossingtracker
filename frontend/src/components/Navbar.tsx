@@ -1,8 +1,11 @@
 import "./../styles/Navbar.css"
 import navlogo from "./../images/navlogo.png"
 import { NavLink } from 'react-router-dom'
+import { useAuth } from '../auth/AuthContext'
 
 function Navbar() {
+    const { username, logout } = useAuth();
+
     return (
         <nav className="navbar">
             <div className="logo">
@@ -14,7 +17,16 @@ function Navbar() {
                 <NavLink to="/fish" className={({ isActive }) => "link" + (isActive ? " active" : "")}>Fish</NavLink>
                 <NavLink to="/bugs" className={({ isActive }) => "link" + (isActive ? " active" : "")}>Bugs</NavLink>
             </div>
-
+            <div className="nav-auth">
+                {username ? (
+                    <>
+                        <span className="nav-user">{username}</span>
+                        <button className="nav-auth-btn" onClick={logout}>Sign Out</button>
+                    </>
+                ) : (
+                    <NavLink to="/login" className="nav-auth-btn">Sign In</NavLink>
+                )}
+            </div>
         </nav>
     )
 }

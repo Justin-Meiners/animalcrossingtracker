@@ -1,46 +1,41 @@
 import CritterGrid from "../components/CritterGrid.tsx"
-import fish from "../../../backend/data/bugs.json"
 import FilterBar from "../components/FilterBar"
 import CritterInfo from "../components/CritterInfo.tsx"
 import { isAvailableNow } from "../tools/Availability.ts"
+import { useCritters } from "../hooks/useCritters"
+import { useCatches } from "../context/CatchContext"
 import { useState, useMemo } from "react"
+
 function Bugs() {
-    const [caughtFish, setCaughtFish] = useState<Set<number>>(new Set());
+    const { critters: bugs, loading, error } = useCritters("bug");
+    const { isCaught, toggleCaught } = useCatches();
     const [showAvailabilityOnly, setShowAvailabilityOnly] = useState(false);
     const [showUncaughtOnly, setShowUncaughtOnly] = useState(false);
-    const [selectFish, setSelectFish] = useState<number | null>(null);
+    const [selectBug, setSelectBug] = useState<number | null>(null);
 
-    const toggleSelectFish = (id: number) => {
-        setSelectFish(prev => prev === id ? null : id);
+    const toggleSelectBug = (id: number) => {
+        setSelectBug(prev => prev === id ? null : id);
     };
 
-    const toggleCaught = (id: number) => {
-        setCaughtFish(prev => {
-            const newSet = new Set(prev);
-            if (newSet.has(id)) {
-                newSet.delete(id);
-            } else {
-                newSet.add(id);
-            }
-            return newSet;
-        });
-    }
-    const filteredFish = useMemo(() => {
-        fish.sort((a, b) => a.name.localeCompare(b.name));
-        return fish.filter(f => {
-            if (showAvailabilityOnly && !isAvailableNow(f.northern.times_by_month)) {
-                return false;
-            }
-            if (showUncaughtOnly && caughtFish.has(f.id)) {
-                return false;
-            }
+    const caughtSet = useMemo(
+        () => new Set(bugs.filter(b => isCaught('bug', b.id)).map(b => b.id)),
+        [bugs, isCaught]
+    );
+
+    const filteredBugs = useMemo(() => {
+        return bugs.filter(b => {
+            if (showAvailabilityOnly && !isAvailableNow(b.northern.times_by_month)) return false;
+            if (showUncaughtOnly && isCaught('bug', b.id)) return false;
             return true;
         });
-    }, [caughtFish, showAvailabilityOnly, showUncaughtOnly]);
+    }, [bugs, showAvailabilityOnly, showUncaughtOnly, isCaught]);
+
+    if (loading) return <p className="page-status">Loading bugs...</p>;
+    if (error) return <p className="page-status error">Couldn't load bugs: {error}</p>;
 
     return (
         <>
-            <FilterBar 
+            <FilterBar
                 showAvailabilityOnly={showAvailabilityOnly}
                 showUncaughtOnly={showUncaughtOnly}
                 onToggleAvailable={() => setShowAvailabilityOnly(!showAvailabilityOnly)}
@@ -48,21 +43,19 @@ function Bugs() {
             />
             <div className="fish-content">
                 <CritterGrid
-                    critters={filteredFish}
-                    caughtCritters={caughtFish}
-                    selected={selectFish ?? -1}
-                    onToggleSelect={toggleSelectFish}
+                    critters={filteredBugs}
+                    caughtCritters={caughtSet}
+                    selected={selectBug ?? -1}
+                    onToggleSelect={toggleSelectBug}
                 />
                 <CritterInfo
-                    critter={selectFish !== null ? filteredFish.find(f => f.id === selectFish) : null}
+                    critter={selectBug !== null ? filteredBugs.find(b => b.id === selectBug) : null}
                     hemisphere="northern"
-                    caught={selectFish !== null ? caughtFish.has(selectFish) : false}
-                    onToggleCaught={() => { if (selectFish !== null) toggleCaught(selectFish); }}
+                    caught={selectBug !== null ? isCaught('bug', selectBug) : false}
+                    onToggleCaught={() => { if (selectBug !== null) toggleCaught('bug', selectBug); }}
                 />
             </div>
-
-            
         </>
     )
 }
-export default Bugs;
+export default Bugs

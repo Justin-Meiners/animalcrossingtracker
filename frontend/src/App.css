@@ -1,0 +1,11 @@
+.page-status {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--text-light);
+    text-align: center;
+    padding: 48px 0;
+}
+
+.page-status.error {
+    color: #8C3020;
+}

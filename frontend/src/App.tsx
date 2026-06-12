@@ -5,6 +5,7 @@ import './styles/Variables.css'
 import Fish from './pages/Fish'
 import Bugs from './pages/Bugs'
 import Home from './pages/Home'
+import Login from './pages/Login'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/fish" element={<Fish />} />
           <Route path="/bugs" element={<Bugs />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </div>
     </>
