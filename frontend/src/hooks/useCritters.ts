@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import type { Critter } from '../types/Critter';
-import { fetchCritters } from '../api/critters';
+import { fetchCritters } from '../api/Critters';
 
 export function useCritters(type: 'fish' | 'bug') {
     const [critters, setCritters] = useState<Critter[]>([]);

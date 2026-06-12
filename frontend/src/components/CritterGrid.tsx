@@ -1,4 +1,4 @@
-import "./../Styles/CritterGrid.css"
+import "./../styles/CritterGrid.css"
 import { type Critter } from "../types/Critter.ts"
 import CritterCard from "./CritterCard.tsx"
 
