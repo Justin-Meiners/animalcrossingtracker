@@ -95,6 +95,23 @@
 .nav-auth-btn:hover { filter: brightness(1.05); }
 
 @media (max-width: 580px) {
-  .links   { display: none; }
-  .navbar  { padding: 0 14px; }
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 14px 6px;
+        gap: 6px;
+    }
+    .links {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 4px;
+    }
+    .link {
+        font-size: 1rem;
+        padding: 4px 10px;
+    }
+    .logo {
+        font-size: 1.2rem;
+    }
 }

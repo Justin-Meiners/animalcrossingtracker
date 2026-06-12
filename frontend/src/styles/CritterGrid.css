@@ -4,3 +4,10 @@
     gap: 16px;
     flex: 7;
 }
+
+@media (max-width: 580px) {
+    .critter-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}

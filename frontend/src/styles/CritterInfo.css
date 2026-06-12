@@ -92,3 +92,16 @@
     font-size: 0.85rem;
     text-align: center;
 }
+
+@media (max-width: 580px) {
+    .fish-content {
+        flex-direction: column;
+    }
+    .critter-info {
+        height: auto;
+        position: static;
+        flex: none;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

@@ -9,3 +9,9 @@
 .page-status.error {
     color: #8C3020;
 }
+
+@media (max-width: 580px) {
+    body {
+        padding: 0 12px;
+    }
+}
