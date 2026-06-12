@@ -17,6 +17,10 @@
     text-align: center;
     user-select: none;
 }
+.selected {
+    border-color: var(--green-leaf);
+    background: var(--green-leaf);
+}
 
 .critter-card:hover {
     transform: translateY(-4px);

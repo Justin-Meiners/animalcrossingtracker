@@ -44,10 +44,7 @@
     gap: 8px;
     text-decoration: none;
     flex-shrink: 0;
-}
-.logo:hover {
-    color: var(--yellow-sun);
-    text-decoration: none;
+    pointer-events: none;
 }
 .logo-image {
     height: 1.4rem;

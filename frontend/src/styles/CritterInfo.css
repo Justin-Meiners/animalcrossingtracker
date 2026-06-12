@@ -1,6 +1,94 @@
+.fish-content {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-start;
+    width: 100%;
+}
+
 .critter-info {
+    background: var(--white-cloud);
+    border: 2.5px solid var(--tan-dark);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-card);
+    padding: 14px;
     display: flex;
     flex-direction: column;
-    align-items: space-between;
-    padding: 20px;
+    gap: 8px;
+    flex: 3;
+    height: 550px;
+    position: sticky;
+    top: 16px;
+}
+
+.critter-info-image {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+}
+
+.critter-info-name {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1rem;
+    color: var(--text-dark);
+    text-align: center;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+    border-radius: var(--radius-pill);
+    border: 2px solid var(--tan-dark);
+}
+
+.info-label {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.74rem;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.06rem;
+}
+
+.info-value {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.catch-button {
+    margin-top: auto;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.74rem;
+    padding: 6px 12px;
+    border-radius: var(--radius-pill);
+    border: 2px solid var(--tan-dark);
+    background: transparent;
+    color: var(--text-mid);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    width: 100%;
+}
+
+.catch-button:hover {
+    border-color: var(--green-leaf);
+    color: var(--green-deep);
+}
+
+.catch-button.caught {
+    background: var(--green-leaf);
+    border-color: var(--green-deep);
+    color: #fff;
+    box-shadow: 0 2px 0 var(--green-deep);
+}
+
+.critter-info-empty {
+    margin: auto;
+    color: var(--text-light);
+    font-size: 0.85rem;
+    text-align: center;
 }

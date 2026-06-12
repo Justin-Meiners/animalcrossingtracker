@@ -1,12 +1,18 @@
 import CritterGrid from "../components/CritterGrid.tsx"
 import fish from "../../../backend/data/fish.json"
 import FilterBar from "../components/FilterBar"
+import CritterInfo from "../components/CritterInfo.tsx"
 import { isAvailableNow } from "../tools/Availability.ts"
 import { useState, useMemo } from "react"
 function Fish() {
     const [caughtFish, setCaughtFish] = useState<Set<number>>(new Set());
     const [showAvailabilityOnly, setShowAvailabilityOnly] = useState(false);
     const [showUncaughtOnly, setShowUncaughtOnly] = useState(false);
+    const [selectFish, setSelectFish] = useState<number | null>(null);
+
+    const toggleSelectFish = (id: number) => {
+        setSelectFish(prev => prev === id ? null : id);
+    };
 
     const toggleCaught = (id: number) => {
         setCaughtFish(prev => {
@@ -40,11 +46,22 @@ function Fish() {
                 onToggleAvailable={() => setShowAvailabilityOnly(!showAvailabilityOnly)}
                 onToggleCaught={() => setShowUncaughtOnly(!showUncaughtOnly)}
             />
-            <CritterGrid
-                critters={filteredFish}
-                caughtCritters={caughtFish}
-                onToggleCaught={toggleCaught}
-            />
+            <div className="fish-content">
+                <CritterGrid
+                    critters={filteredFish}
+                    caughtCritters={caughtFish}
+                    selected={selectFish ?? -1}
+                    onToggleSelect={toggleSelectFish}
+                />
+                <CritterInfo
+                    critter={selectFish !== null ? filteredFish.find(f => f.id === selectFish) : null}
+                    hemisphere="northern"
+                    caught={selectFish !== null ? caughtFish.has(selectFish) : false}
+                    onToggleCaught={() => { if (selectFish !== null) toggleCaught(selectFish); }}
+                />
+            </div>
+
+            
         </>
     )
 }

@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'RodinBokutohPro';
     src: url('./assets/RodinBokutohPro-EB-AlphaNum.woff2') format('woff2');
-    font-weight: 800;
+    font-weight: 100 900;
     font-style: normal;
 }
 :root {

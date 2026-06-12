@@ -5,7 +5,8 @@ import CritterCard from "./CritterCard.tsx"
 function CritterGrid({ 
     critters, 
     caughtCritters, 
-    onToggleCaught}: {critters: Critter[], caughtCritters: Set<number>, onToggleCaught: (id: number) => void} ) {
+    selected,
+    onToggleSelect}: {critters: Critter[], caughtCritters: Set<number>, selected: number, onToggleSelect: (id: number) => void} ) {
         return (
             <div className="critter-grid">
                 {critters.map((c) => (
@@ -13,7 +14,8 @@ function CritterGrid({
                         key={c.id}
                         critter={c}
                         caught={caughtCritters.has(c.id)}
-                        onToggleCaught={() => onToggleCaught(c.id)}
+                        selected={selected === c.id}
+                        onToggleSelect={() => onToggleSelect(c.id)}
                     />
                 ))}
             </div>
