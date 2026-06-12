@@ -40,6 +40,10 @@
     top: 8px;
     right: 8px;
 }
+.critter-name {
+    font-weight: bold;
+    font-size: 1rem;
+}
 
 .critter-image {
     width: 80px;

@@ -7,7 +7,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="logo">
                 <img src={navlogo} alt="Logo" className="logoDot" />
-                Critterpedia
+                Critter Tracker
             </div>
             <div className="links">
                 <NavLink to="/" end className={({ isActive }) => "link" + (isActive ? " active" : "")}>Home</NavLink>

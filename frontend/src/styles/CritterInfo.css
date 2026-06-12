@@ -1,0 +1,6 @@
+.critter-info {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    padding: 20px;
+}

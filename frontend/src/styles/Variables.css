@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Nunito+Sans:wght@400;600&display=swap');
 
+@font-face {
+    font-family: 'RodinBokutohPro';
+    src: url('./assets/RodinBokutohPro-EB-AlphaNum.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
 :root {
     --brown-wood: #A0713A;
     --green-deep: #3D8B37;
@@ -16,7 +22,7 @@
     --radius-lg: 18px;
 
 
-    --font-display: 'Nunito', cursive;
+    --font-display: 'RodinBokutohPro';
     --text-dark: #3D2B1F;
     --text-mid:#7A5C40;
     --text-light: #A8896A;
