@@ -11,7 +11,7 @@ export interface TimesByMonth {
 export interface Critter {
   id: number;
   name: string;
-  location: string;
+  location?: string;
   sell_nook: number;
   image_url: string;
   render_url: string;

@@ -7,6 +7,7 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 SOURCES = [
     ("fish", "fish.json"),
     ("bug", "bugs.json"),
+    ("sea", "sea.json"),
 ]
 
 def main():

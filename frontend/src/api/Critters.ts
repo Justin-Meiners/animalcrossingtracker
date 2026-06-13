@@ -2,7 +2,7 @@ import type { Critter } from '../types/Critter';
 
 const API_URL = import.meta.env.VITE_API_URL;
 
-export async function fetchCritters(type: 'fish' | 'bug'): Promise<Critter[]> {
+export async function fetchCritters(type: 'fish' | 'bug' | 'sea'): Promise<Critter[]> {
     const cacheKey = `critters-${type}`;
     const cached = sessionStorage.getItem(cacheKey);
     if (cached) return JSON.parse(cached) as Critter[];

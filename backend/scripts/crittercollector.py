@@ -1,7 +1,8 @@
+import os
 import requests
 import json
 
-API_KEY = ""
+API_KEY = os.getenv("NOOKIPEDIA_API_KEY")
 BASE_URL = "https://api.nookipedia.com"
 critter = "sea"
  

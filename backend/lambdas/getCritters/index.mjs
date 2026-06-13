@@ -2,7 +2,7 @@ import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import { DynamoDBDocumentClient, QueryCommand } from "@aws-sdk/lib-dynamodb";
 
 const client = DynamoDBDocumentClient.from(new DynamoDBClient({}));
-const VALID_TYPES = new Set(["fish", "bug"]);
+const VALID_TYPES = new Set(["fish", "bug", "sea"]);
 
 export const handler = async (event) => {
     const type = event.pathParameters?.type;

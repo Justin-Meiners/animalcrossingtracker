@@ -24,10 +24,24 @@ function CritterInfo({ critter, hemisphere, caught, onToggleCaught }: {
                             <span className="info-value">{critter.sell_cj} 💰</span>
                         </div>
                     )}
-                    <div className="info-row">
-                        <span className="info-label">Location</span>
-                        <span className="info-value">{critter.location}</span>
-                    </div>
+                    {critter.sell_flick && (
+                        <div className="info-row">
+                            <span className="info-label">Flick</span>
+                            <span className="info-value">{critter.sell_flick} 💰</span>
+                        </div>
+                    )}
+                    {critter.location && (
+                        <div className="info-row">
+                            <span className="info-label">Location</span>
+                            <span className="info-value">{critter.location}</span>
+                        </div>
+                    )}
+                    {critter.shadow_size && (
+                        <div className="info-row">
+                            <span className="info-label">Shadow</span>
+                            <span className="info-value">{critter.shadow_size}</span>
+                        </div>
+                    )}
                     {critter[hemisphere] && (
                         <div className="info-row">
                             <span className="info-label">Time</span>

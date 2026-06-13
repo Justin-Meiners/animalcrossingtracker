@@ -22,8 +22,8 @@ function saveToStorage(username: string | null, catches: Set<string>) {
 }
 
 interface CatchContextValue {
-    isCaught: (type: 'fish' | 'bug', id: number) => boolean;
-    toggleCaught: (type: 'fish' | 'bug', id: number) => void;
+    isCaught: (type: 'fish' | 'bug' | 'sea', id: number) => boolean;
+    toggleCaught: (type: 'fish' | 'bug' | 'sea', id: number) => void;
 }
 
 const CatchContext = createContext<CatchContextValue | null>(null);

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import type { Critter } from '../types/Critter';
 import { fetchCritters } from '../api/Critters';
 
-export function useCritters(type: 'fish' | 'bug') {
+export function useCritters(type: 'fish' | 'bug' | 'sea') {
     const [critters, setCritters] = useState<Critter[]>([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
