@@ -128,12 +128,45 @@
 @media (max-width: 580px) {
     .fish-content {
         flex-direction: column;
+        position: relative;
+    }
+    .critter-info-wrapper {
+        order: -1;
+        position: sticky;
+        top: 60px;
+        z-index: 10;
+        width: 100%;
+        box-sizing: border-box;
+        animation: info-enter-mobile 300ms ease both;
+    }
+    .critter-info-wrapper.is-exiting {
+        animation: info-exit-mobile 300ms ease both;
     }
     .critter-info {
         height: auto;
-        position: static;
-        flex: none;
         width: 100%;
         box-sizing: border-box;
+    }
+}
+
+@keyframes info-enter-mobile {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes info-exit-mobile {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
     }
 }
