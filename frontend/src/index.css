@@ -1,3 +1,4 @@
 body {
   background-color: var(--tan-light);
+  font-family: var(--font-display);
 }
