@@ -38,6 +38,14 @@
     color: var(--green-deep);
 }
 
+.filter-divider {
+    width: 1px;
+    height: 20px;
+    background: var(--tan-dark);
+    margin: 0 4px;
+    flex-shrink: 0;
+}
+
 .filter-pill.on-green {
     background: var(--green-leaf);
     border-color: var(--green-deep);

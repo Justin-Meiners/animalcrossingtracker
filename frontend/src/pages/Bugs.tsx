@@ -4,11 +4,13 @@ import CritterInfo from "../components/CritterInfo.tsx"
 import { isAvailableNow } from "../tools/Availability.ts"
 import { useCritters } from "../hooks/useCritters"
 import { useCatches } from "../context/CatchContext"
+import { useHemisphere } from "../context/HemisphereContext"
 import { useState, useMemo } from "react"
 
 function Bugs() {
     const { critters: bugs, loading, error } = useCritters("bug");
     const { isCaught, toggleCaught } = useCatches();
+    const { hemisphere } = useHemisphere();
     const [showAvailabilityOnly, setShowAvailabilityOnly] = useState(false);
     const [showUncaughtOnly, setShowUncaughtOnly] = useState(false);
     const [selectBug, setSelectBug] = useState<number | null>(null);
@@ -24,11 +26,12 @@ function Bugs() {
 
     const filteredBugs = useMemo(() => {
         return bugs.filter(b => {
-            if (showAvailabilityOnly && !isAvailableNow(b.northern.times_by_month)) return false;
+            const times = b[hemisphere]?.times_by_month;
+            if (showAvailabilityOnly && (!times || !isAvailableNow(times))) return false;
             if (showUncaughtOnly && isCaught('bug', b.id)) return false;
             return true;
         });
-    }, [bugs, showAvailabilityOnly, showUncaughtOnly, isCaught]);
+    }, [bugs, hemisphere, showAvailabilityOnly, showUncaughtOnly, isCaught]);
 
     if (loading) return <p className="page-status">Loading bugs...</p>;
     if (error) return <p className="page-status error">Couldn't load bugs: {error}</p>;
@@ -46,11 +49,12 @@ function Bugs() {
                     critters={filteredBugs}
                     caughtCritters={caughtSet}
                     selected={selectBug ?? -1}
+                    hemisphere={hemisphere}
                     onToggleSelect={toggleSelectBug}
                 />
                 <CritterInfo
                     critter={selectBug !== null ? filteredBugs.find(b => b.id === selectBug) : null}
-                    hemisphere="northern"
+                    hemisphere={hemisphere}
                     caught={selectBug !== null ? isCaught('bug', selectBug) : false}
                     onToggleCaught={() => { if (selectBug !== null) toggleCaught('bug', selectBug); }}
                 />

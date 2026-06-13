@@ -4,11 +4,13 @@ import CritterInfo from "../components/CritterInfo.tsx"
 import { isAvailableNow } from "../tools/Availability.ts"
 import { useCritters } from "../hooks/useCritters"
 import { useCatches } from "../context/CatchContext"
+import { useHemisphere } from "../context/HemisphereContext"
 import { useState, useMemo } from "react"
 
 function Fish() {
     const { critters: fish, loading, error } = useCritters("fish");
     const { isCaught, toggleCaught } = useCatches();
+    const { hemisphere } = useHemisphere();
     const [showAvailabilityOnly, setShowAvailabilityOnly] = useState(false);
     const [showUncaughtOnly, setShowUncaughtOnly] = useState(false);
     const [selectFish, setSelectFish] = useState<number | null>(null);
@@ -24,11 +26,12 @@ function Fish() {
 
     const filteredFish = useMemo(() => {
         return fish.filter(f => {
-            if (showAvailabilityOnly && !isAvailableNow(f.northern.times_by_month)) return false;
+            const times = f[hemisphere]?.times_by_month;
+            if (showAvailabilityOnly && (!times || !isAvailableNow(times))) return false;
             if (showUncaughtOnly && isCaught('fish', f.id)) return false;
             return true;
         });
-    }, [fish, showAvailabilityOnly, showUncaughtOnly, isCaught]);
+    }, [fish, hemisphere, showAvailabilityOnly, showUncaughtOnly, isCaught]);
 
     if (loading) return <p className="page-status">Loading fish...</p>;
     if (error) return <p className="page-status error">Couldn't load fish: {error}</p>;
@@ -46,11 +49,12 @@ function Fish() {
                     critters={filteredFish}
                     caughtCritters={caughtSet}
                     selected={selectFish ?? -1}
+                    hemisphere={hemisphere}
                     onToggleSelect={toggleSelectFish}
                 />
                 <CritterInfo
                     critter={selectFish !== null ? filteredFish.find(f => f.id === selectFish) : null}
-                    hemisphere="northern"
+                    hemisphere={hemisphere}
                     caught={selectFish !== null ? isCaught('fish', selectFish) : false}
                     onToggleCaught={() => { if (selectFish !== null) toggleCaught('fish', selectFish); }}
                 />
