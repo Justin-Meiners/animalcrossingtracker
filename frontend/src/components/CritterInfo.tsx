@@ -16,7 +16,7 @@ function CritterInfo({ critter, hemisphere, caught, onToggleCaught }: {
                     <span className="critter-info-name">{critter.name}</span>
                     <div className="info-row">
                         <span className="info-label">Nook</span>
-                        <span className="info-value">{critter.sell_nook} 🛎️</span>
+                        <span className="info-value">{critter.sell_nook} <img src="https://dodo.ac/np/images/1/1e/99k_Bells_NH_Inv_Icon.png" alt="Bells" className="bell-icon" /></span>
                     </div>
                     {critter.sell_cj && (
                         <div className="info-row">

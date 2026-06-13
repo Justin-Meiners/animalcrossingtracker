@@ -54,3 +54,10 @@
     height: 80px;
     object-fit: contain;
 }
+
+.bell-icon {
+    height: 1em;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 2px;
+}

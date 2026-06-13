@@ -11,7 +11,7 @@ function CritterCard( { critter, caught, selected, hemisphere, onToggleSelect }:
 
             <img src={critter.image_url} alt={critter.name} className="critter-image" />
             <span className="critter-name">{critter.name}</span>
-            <span className="critter-price">{critter.sell_nook}🛎️</span>
+            <span className="critter-price">{critter.sell_nook}<img src="https://dodo.ac/np/images/1/1e/99k_Bells_NH_Inv_Icon.png" alt="Bells" className="bell-icon" /></span>
         </div>
     )
 }
