@@ -15,8 +15,8 @@ export interface Critter {
   sell_nook: number;
   image_url: string;
   render_url: string;
-  northern: { times_by_month: TimesByMonth };
-  southern?: { times_by_month: TimesByMonth };
+  northern: { times_by_month: TimesByMonth; months?: string };
+  southern?: { times_by_month: TimesByMonth; months?: string };
   shadow_size?: string;
   sell_cj?: number;
   sell_flick?: number;

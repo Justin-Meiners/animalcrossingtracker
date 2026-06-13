@@ -42,6 +42,10 @@ def parse_time_window(time_str):
     return None
 
 
+def availability_months(availability_array):
+    return ", ".join(entry["months"] for entry in availability_array)
+
+
 def transform_times(times_by_month):
     return {month: parse_time_window(val) for month, val in times_by_month.items()}
 
@@ -55,8 +59,8 @@ def transform_fish(raw):
         "sell_nook": int(raw["sell_nook"]),
         "image_url": raw["image_url"],
         "render_url": raw["render_url"],
-        "northern": {"times_by_month": transform_times(raw["north"]["times_by_month"])},
-        "southern": {"times_by_month": transform_times(raw["south"]["times_by_month"])},
+        "northern": {"times_by_month": transform_times(raw["north"]["times_by_month"]), "months": availability_months(raw["north"]["availability_array"])},
+        "southern": {"times_by_month": transform_times(raw["south"]["times_by_month"]), "months": availability_months(raw["south"]["availability_array"])},
     }
     if raw.get("sell_cj") and raw["sell_cj"] != "":
         out["sell_cj"] = int(raw["sell_cj"])
@@ -71,8 +75,8 @@ def transform_bug(raw):
         "sell_nook": int(raw["sell_nook"]),
         "image_url": raw["image_url"],
         "render_url": raw["render_url"],
-        "northern": {"times_by_month": transform_times(raw["north"]["times_by_month"])},
-        "southern": {"times_by_month": transform_times(raw["south"]["times_by_month"])},
+        "northern": {"times_by_month": transform_times(raw["north"]["times_by_month"]), "months": availability_months(raw["north"]["availability_array"])},
+        "southern": {"times_by_month": transform_times(raw["south"]["times_by_month"]), "months": availability_months(raw["south"]["availability_array"])},
     }
     if raw.get("sell_flick") and raw["sell_flick"] != "":
         out["sell_flick"] = int(raw["sell_flick"])
@@ -87,8 +91,8 @@ def transform_sea(raw):
         "sell_nook": int(raw["sell_nook"]),
         "image_url": raw["image_url"],
         "render_url": raw["render_url"],
-        "northern": {"times_by_month": transform_times(raw["north"]["times_by_month"])},
-        "southern": {"times_by_month": transform_times(raw["south"]["times_by_month"])},
+        "northern": {"times_by_month": transform_times(raw["north"]["times_by_month"]), "months": availability_months(raw["north"]["availability_array"])},
+        "southern": {"times_by_month": transform_times(raw["south"]["times_by_month"]), "months": availability_months(raw["south"]["availability_array"])},
     }
     return out
 

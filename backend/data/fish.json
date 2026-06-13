@@ -69,7 +69,8 @@
                     "end": 21,
                     "label": "4 AM - 9 PM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -133,7 +134,8 @@
                     "end": 21,
                     "label": "4 AM - 9 PM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 300
     },
@@ -183,7 +185,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Oct"
         },
         "southern": {
             "times_by_month": {
@@ -223,7 +226,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Nov \u2013 Apr"
         },
         "sell_cj": 4500
     },
@@ -265,7 +269,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -297,7 +302,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Dec \u2013 Mar"
         },
         "sell_cj": 15000
     },
@@ -339,7 +345,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -371,7 +378,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Dec \u2013 Mar"
         },
         "sell_cj": 15000
     },
@@ -433,7 +441,8 @@
                     "label": "All day"
                 },
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 Nov"
         },
         "southern": {
             "times_by_month": {
@@ -485,7 +494,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Sep \u2013 May"
         },
         "sell_cj": 7500
     },
@@ -559,7 +569,8 @@
                     "end": 4,
                     "label": "9 PM - 4 AM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -623,7 +634,8 @@
                     "end": 4,
                     "label": "9 PM - 4 AM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 22500
     },
@@ -673,7 +685,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Oct"
         },
         "southern": {
             "times_by_month": {
@@ -713,7 +726,8 @@
                     "end": 16,
                     "label": "9 AM - 4 PM"
                 }
-            }
+            },
+            "months": "Nov \u2013 Apr"
         },
         "sell_cj": 3750
     },
@@ -759,7 +773,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Nov \u2013 Mar"
         },
         "southern": {
             "times_by_month": {
@@ -795,7 +810,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Sep"
         },
         "sell_cj": 1350
     },
@@ -869,7 +885,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -933,7 +950,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 600
     },
@@ -975,7 +993,8 @@
                     "end": 4,
                     "label": "9 PM - 4 AM"
                 }
-            }
+            },
+            "months": "Nov \u2013 Feb"
         },
         "southern": {
             "times_by_month": {
@@ -1007,7 +1026,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Aug"
         },
         "sell_cj": 7500
     },
@@ -1069,7 +1089,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Nov \u2013 Apr; Jul \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -1121,7 +1142,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jan \u2013 Mar; May \u2013 Oct"
         },
         "sell_cj": 15000
     },
@@ -1195,7 +1217,8 @@
                     "end": 16,
                     "label": "9 AM - 4 PM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -1259,7 +1282,8 @@
                     "end": 16,
                     "label": "9 AM - 4 PM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 270
     },
@@ -1309,7 +1333,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Apr \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -1349,7 +1374,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Oct \u2013 Mar"
         },
         "sell_cj": 1500
     },
@@ -1423,7 +1449,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -1487,7 +1514,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 450
     },
@@ -1537,7 +1565,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Oct"
         },
         "southern": {
             "times_by_month": {
@@ -1577,7 +1606,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Nov \u2013 Apr"
         },
         "sell_cj": 1200
     },
@@ -1631,7 +1661,8 @@
                     "label": "All day"
                 },
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 Jun, Sep \u2013 Nov"
         },
         "southern": {
             "times_by_month": {
@@ -1675,7 +1706,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Sep \u2013 Dec, Mar \u2013 May"
         },
         "sell_cj": 5700
     },
@@ -1729,7 +1761,8 @@
                     "label": "All day"
                 },
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 Jun, Sep \u2013 Nov"
         },
         "southern": {
             "times_by_month": {
@@ -1773,7 +1806,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Sep \u2013 Dec, Mar \u2013 May"
         },
         "sell_cj": 1500
     },
@@ -1823,7 +1857,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Apr \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -1863,7 +1898,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Oct \u2013 Mar"
         },
         "sell_cj": 975
     },
@@ -1937,7 +1973,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -2001,7 +2038,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 22500
     },
@@ -2051,7 +2089,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Apr \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -2091,7 +2130,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Oct \u2013 Mar"
         },
         "sell_cj": 300
     },
@@ -2165,7 +2205,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -2229,7 +2270,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 240
     },
@@ -2283,7 +2325,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Oct \u2013 Apr"
         },
         "southern": {
             "times_by_month": {
@@ -2327,7 +2370,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Apr \u2013 Oct"
         },
         "sell_cj": 450
     },
@@ -2401,7 +2445,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -2465,7 +2510,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 360
     },
@@ -2507,7 +2553,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -2539,7 +2586,8 @@
                     "end": 21,
                     "label": "4 AM - 9 PM"
                 }
-            }
+            },
+            "months": "Dec \u2013 Mar"
         },
         "sell_cj": 22500
     },
@@ -2585,7 +2633,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Nov \u2013 Mar"
         },
         "southern": {
             "times_by_month": {
@@ -2621,7 +2670,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Sep"
         },
         "sell_cj": 3750
     },
@@ -2695,7 +2745,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -2759,7 +2810,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 600
     },
@@ -2801,7 +2853,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Aug"
         },
         "southern": {
             "times_by_month": {
@@ -2833,7 +2886,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Nov \u2013 Feb"
         },
         "sell_cj": 180
     },
@@ -2875,7 +2929,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -2907,7 +2962,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Dec \u2013 Mar"
         },
         "sell_cj": 9000
     },
@@ -2945,7 +3001,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Aug"
         },
         "southern": {
             "times_by_month": {
@@ -2973,7 +3030,8 @@
                     "end": 16,
                     "label": "9 AM - 4 PM"
                 }
-            }
+            },
+            "months": "Dec \u2013 Feb"
         },
         "sell_cj": 8250
     },
@@ -3023,7 +3081,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Oct"
         },
         "southern": {
             "times_by_month": {
@@ -3063,7 +3122,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Nov \u2013 Apr"
         },
         "sell_cj": 6750
     },
@@ -3113,7 +3173,8 @@
                     "label": "4 PM - 9 AM"
                 },
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 May; Sep \u2013 Nov"
         },
         "southern": {
             "times_by_month": {
@@ -3153,7 +3214,8 @@
                     "label": "4 PM - 9 AM"
                 },
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 May; Sep \u2013 Nov"
         },
         "sell_cj": 22500
     },
@@ -3227,7 +3289,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -3291,7 +3354,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 1950
     },
@@ -3333,7 +3397,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -3365,7 +3430,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Dec \u2013 Mar"
         },
         "sell_cj": 22500
     },
@@ -3423,7 +3489,8 @@
                     "label": "9 AM - 4 PM"
                 },
                 "12": null
-            }
+            },
+            "months": "Apr \u2013 Nov"
         },
         "southern": {
             "times_by_month": {
@@ -3471,7 +3538,8 @@
                     "end": 16,
                     "label": "9 AM - 4 PM"
                 }
-            }
+            },
+            "months": "Oct \u2013 May"
         },
         "sell_cj": 1950
     },
@@ -3513,7 +3581,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -3545,7 +3614,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Dec \u2013 Mar"
         },
         "sell_cj": 12000
     },
@@ -3619,7 +3689,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -3683,7 +3754,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 225
     },
@@ -3729,7 +3801,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Apr \u2013 Aug"
         },
         "southern": {
             "times_by_month": {
@@ -3765,7 +3838,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Oct \u2013 Feb"
         },
         "sell_cj": 450
     },
@@ -3795,7 +3869,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Sep"
         },
         "southern": {
             "times_by_month": {
@@ -3815,7 +3890,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Mar"
         },
         "sell_cj": 2700
     },
@@ -3889,7 +3965,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -3953,7 +4030,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 6000
     },
@@ -3991,7 +4069,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 May"
         },
         "southern": {
             "times_by_month": {
@@ -4019,7 +4098,8 @@
                     "label": "All day"
                 },
                 "12": null
-            }
+            },
+            "months": "Sep \u2013 Nov"
         },
         "sell_cj": 600
     },
@@ -4069,7 +4149,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Oct"
         },
         "southern": {
             "times_by_month": {
@@ -4109,7 +4190,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Nov \u2013 Apr"
         },
         "sell_cj": 9000
     },
@@ -4147,7 +4229,8 @@
                     "label": "4 PM - 9 AM"
                 },
                 "12": null
-            }
+            },
+            "months": "Sep \u2013 Nov"
         },
         "southern": {
             "times_by_month": {
@@ -4175,7 +4258,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 May"
         },
         "sell_cj": 3000
     },
@@ -4213,7 +4297,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Aug \u2013 Oct"
         },
         "southern": {
             "times_by_month": {
@@ -4241,7 +4326,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Feb \u2013 Apr"
         },
         "sell_cj": 3000
     },
@@ -4275,7 +4361,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jul \u2013 Aug"
         },
         "southern": {
             "times_by_month": {
@@ -4299,7 +4386,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jan \u2013 Feb"
         },
         "sell_cj": 15000
     },
@@ -4357,7 +4445,8 @@
                     "label": "9 AM - 4 PM"
                 },
                 "12": null
-            }
+            },
+            "months": "Apr \u2013 Nov"
         },
         "southern": {
             "times_by_month": {
@@ -4405,7 +4494,8 @@
                     "end": 16,
                     "label": "9 AM - 4 PM"
                 }
-            }
+            },
+            "months": "Oct \u2013 May"
         },
         "sell_cj": 750
     },
@@ -4451,7 +4541,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -4487,7 +4578,8 @@
                     "end": 16,
                     "label": "9 AM - 4 PM"
                 }
-            }
+            },
+            "months": "Nov \u2013 Mar"
         },
         "sell_cj": 2250
     },
@@ -4537,7 +4629,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Dec \u2013 May"
         },
         "southern": {
             "times_by_month": {
@@ -4577,7 +4670,8 @@
                     "label": "All day"
                 },
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Nov"
         },
         "sell_cj": 13500
     },
@@ -4615,7 +4709,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jul \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -4643,7 +4738,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jan \u2013 Mar"
         },
         "sell_cj": 6000
     },
@@ -4717,7 +4813,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -4781,7 +4878,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 1200
     },
@@ -4855,7 +4953,8 @@
                     "end": 16,
                     "label": "9 AM - 4 PM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -4919,7 +5018,8 @@
                     "end": 16,
                     "label": "9 AM - 4 PM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 300
     },
@@ -4961,7 +5061,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Sep \u2013 Dec"
         },
         "southern": {
             "times_by_month": {
@@ -4993,7 +5094,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 Jun"
         },
         "sell_cj": 2700
     },
@@ -5035,7 +5137,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -5067,7 +5170,8 @@
                     "end": 16,
                     "label": "9 AM - 4 PM & 9 PM - 4 AM"
                 }
-            }
+            },
+            "months": "Dec \u2013 Mar"
         },
         "sell_cj": 3750
     },
@@ -5105,7 +5209,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Dec \u2013 Feb"
         },
         "southern": {
             "times_by_month": {
@@ -5133,7 +5238,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Aug"
         },
         "sell_cj": 600
     },
@@ -5207,7 +5313,8 @@
                     "end": 16,
                     "label": "9 AM - 4 PM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -5271,7 +5378,8 @@
                     "end": 16,
                     "label": "9 AM - 4 PM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 1950
     },
@@ -5309,7 +5417,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jul \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -5337,7 +5446,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jan \u2013 Mar"
         },
         "sell_cj": 375
     },
@@ -5387,7 +5497,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Oct"
         },
         "southern": {
             "times_by_month": {
@@ -5427,7 +5538,8 @@
                     "end": 16,
                     "label": "9 AM - 4 PM"
                 }
-            }
+            },
+            "months": "Nov \u2013 Apr"
         },
         "sell_cj": 1200
     },
@@ -5501,7 +5613,8 @@
                     "end": 16,
                     "label": "9 AM - 4 PM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -5565,7 +5678,8 @@
                     "end": 16,
                     "label": "9 AM - 4 PM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 6750
     },
@@ -5607,7 +5721,8 @@
                     "label": "4 AM - 9 PM"
                 },
                 "12": null
-            }
+            },
+            "months": "Aug \u2013 Nov"
         },
         "southern": {
             "times_by_month": {
@@ -5639,7 +5754,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Feb \u2013 May"
         },
         "sell_cj": 4500
     },
@@ -5713,7 +5829,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -5777,7 +5894,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 4500
     },
@@ -5823,7 +5941,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Oct"
         },
         "southern": {
             "times_by_month": {
@@ -5859,7 +5978,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Dec \u2013 Apr"
         },
         "sell_cj": 900
     },
@@ -5901,7 +6021,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -5933,7 +6054,8 @@
                     "end": 4,
                     "label": "9 PM - 4 AM"
                 }
-            }
+            },
+            "months": "Dec \u2013 Mar"
         },
         "sell_cj": 6000
     },
@@ -5963,7 +6085,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Sep"
         },
         "southern": {
             "times_by_month": {
@@ -5983,7 +6106,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Mar"
         },
         "sell_cj": 1050
     },
@@ -6025,7 +6149,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -6057,7 +6182,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Dec \u2013 Mar"
         },
         "sell_cj": 18000
     },
@@ -6131,7 +6257,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -6195,7 +6322,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "sell_cj": 600
     },
@@ -6237,7 +6365,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Dec \u2013 Mar"
         },
         "southern": {
             "times_by_month": {
@@ -6269,7 +6398,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Sep"
         },
         "sell_cj": 1500
     },
@@ -6327,7 +6457,8 @@
                     "label": "All day"
                 },
                 "12": null
-            }
+            },
+            "months": "Apr \u2013 Nov"
         },
         "southern": {
             "times_by_month": {
@@ -6375,7 +6506,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Oct \u2013 May"
         },
         "sell_cj": 1650
     },
@@ -6429,7 +6561,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Apr \u2013 Oct"
         },
         "southern": {
             "times_by_month": {
@@ -6473,7 +6606,8 @@
                     "end": 4,
                     "label": "9 PM - 4 AM"
                 }
-            }
+            },
+            "months": "Oct \u2013 Apr"
         },
         "sell_cj": 7500
     },
@@ -6507,7 +6641,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Aug \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -6531,7 +6666,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Feb \u2013 Mar"
         },
         "sell_cj": 5625
     },
@@ -6593,7 +6729,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Dec \u2013 Aug"
         },
         "southern": {
             "times_by_month": {
@@ -6645,7 +6782,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Jun \u2013 Feb"
         },
         "sell_cj": 750
     },
@@ -6687,7 +6825,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Dec \u2013 Mar"
         },
         "southern": {
             "times_by_month": {
@@ -6719,7 +6858,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Sep"
         },
         "sell_cj": 22500
     },
@@ -6773,7 +6913,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Sep \u2013 Mar"
         },
         "southern": {
             "times_by_month": {
@@ -6817,7 +6958,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 Sep"
         },
         "sell_cj": 15000
     },
@@ -6859,7 +7001,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -6891,7 +7034,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Dec \u2013 Mar"
         },
         "sell_cj": 2250
     },
@@ -6941,7 +7085,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Apr \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -6981,7 +7126,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Oct \u2013 Mar"
         },
         "sell_cj": 1500
     },
@@ -7019,7 +7165,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jul \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -7047,7 +7194,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jan \u2013 Mar"
         },
         "sell_cj": 1350
     },
@@ -7093,7 +7241,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 Jul"
         },
         "southern": {
             "times_by_month": {
@@ -7129,7 +7278,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Sep \u2013 Jan"
         },
         "sell_cj": 150
     },
@@ -7175,7 +7325,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Oct"
         },
         "southern": {
             "times_by_month": {
@@ -7211,7 +7362,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Dec \u2013 Apr"
         },
         "sell_cj": 1200
     },
@@ -7261,7 +7413,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Nov \u2013 Apr"
         },
         "southern": {
             "times_by_month": {
@@ -7301,7 +7454,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Oct"
         },
         "sell_cj": 10500
     },
@@ -7343,7 +7497,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -7375,7 +7530,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Dec \u2013 Mar"
         },
         "sell_cj": 19500
     },
@@ -7425,7 +7581,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Oct \u2013 Mar"
         },
         "southern": {
             "times_by_month": {
@@ -7465,7 +7622,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Apr \u2013 Sep"
         },
         "sell_cj": 450
     },
@@ -7523,7 +7681,8 @@
                     "label": "All day"
                 },
                 "12": null
-            }
+            },
+            "months": "Apr \u2013 Nov"
         },
         "southern": {
             "times_by_month": {
@@ -7571,7 +7730,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Oct \u2013 May"
         },
         "sell_cj": 750
     }

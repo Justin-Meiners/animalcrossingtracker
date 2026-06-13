@@ -52,6 +52,12 @@ function CritterInfo({ critter, hemisphere, caught, onToggleCaught }: {
                             </span>
                         </div>
                     )}
+                    {critter[hemisphere]?.months && (
+                        <div className="info-row">
+                            <span className="info-label">Months</span>
+                            <span className="info-value">{critter[hemisphere]!.months}</span>
+                        </div>
+                    )}
                     <button
                         className={"catch-button" + (caught ? " caught" : "")}
                         onClick={onToggleCaught}

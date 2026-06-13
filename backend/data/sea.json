@@ -52,7 +52,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Jun \u2013 Jan"
         },
         "southern": {
             "times_by_month": {
@@ -100,7 +101,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Dec \u2013 Jul"
         }
     },
     {
@@ -172,7 +174,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -236,7 +239,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         }
     },
     {
@@ -288,7 +292,8 @@
                     "label": "4 PM - 9 AM"
                 },
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 Jun; Sep \u2013 Nov"
         },
         "southern": {
             "times_by_month": {
@@ -332,7 +337,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Mar \u2013 May; Sep \u2013 Dec"
         }
     },
     {
@@ -384,7 +390,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Nov \u2013 May"
         },
         "southern": {
             "times_by_month": {
@@ -428,7 +435,8 @@
                     "label": "All day"
                 },
                 "12": null
-            }
+            },
+            "months": "May \u2013 Nov"
         }
     },
     {
@@ -468,7 +476,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 Jun"
         },
         "southern": {
             "times_by_month": {
@@ -500,7 +509,8 @@
                     "end": 4,
                     "label": "9 PM - 4 AM"
                 }
-            }
+            },
+            "months": "Sep \u2013 Dec"
         }
     },
     {
@@ -532,7 +542,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Aug \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -556,7 +567,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Feb \u2013 Mar"
         }
     },
     {
@@ -604,7 +616,8 @@
                     "label": "All day"
                 },
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Nov"
         },
         "southern": {
             "times_by_month": {
@@ -644,7 +657,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Dec \u2013 May"
         }
     },
     {
@@ -684,7 +698,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jul \u2013 Oct"
         },
         "southern": {
             "times_by_month": {
@@ -716,7 +731,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jan \u2013 Apr"
         }
     },
     {
@@ -760,7 +776,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -796,7 +813,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Nov \u2013 Mar"
         }
     },
     {
@@ -832,7 +850,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jul \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -860,7 +879,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jan \u2013 Mar"
         }
     },
     {
@@ -904,7 +924,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Dec \u2013 Jan; Apr \u2013 Jun"
         },
         "southern": {
             "times_by_month": {
@@ -940,7 +961,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Jun \u2013 Jul; Oct \u2013 Dec"
         }
     },
     {
@@ -1012,7 +1034,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -1076,7 +1099,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "All year"
         }
     },
     {
@@ -1112,7 +1136,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jul \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -1140,7 +1165,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jan \u2013 Mar"
         }
     },
     {
@@ -1192,7 +1218,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Jun \u2013 Dec"
         },
         "southern": {
             "times_by_month": {
@@ -1236,7 +1263,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Dec \u2013 Jun"
         }
     },
     {
@@ -1308,7 +1336,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -1372,7 +1401,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         }
     },
     {
@@ -1420,7 +1450,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Sep \u2013 Feb"
         },
         "southern": {
             "times_by_month": {
@@ -1460,7 +1491,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 Aug"
         }
     },
     {
@@ -1532,7 +1564,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -1596,7 +1629,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         }
     },
     {
@@ -1640,7 +1674,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Nov \u2013 Mar"
         },
         "southern": {
             "times_by_month": {
@@ -1676,7 +1711,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Sep"
         }
     },
     {
@@ -1748,7 +1784,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -1812,7 +1849,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         }
     },
     {
@@ -1884,7 +1922,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -1948,7 +1987,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         }
     },
     {
@@ -1996,7 +2036,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Nov \u2013 Apr"
         },
         "southern": {
             "times_by_month": {
@@ -2036,7 +2077,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Oct"
         }
     },
     {
@@ -2076,7 +2118,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -2108,7 +2151,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Dec \u2013 Mar"
         }
     },
     {
@@ -2148,7 +2192,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Nov \u2013 Feb"
         },
         "southern": {
             "times_by_month": {
@@ -2180,7 +2225,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Aug"
         }
     },
     {
@@ -2224,7 +2270,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Apr \u2013 Aug"
         },
         "southern": {
             "times_by_month": {
@@ -2260,7 +2307,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Oct \u2013 Feb"
         }
     },
     {
@@ -2332,7 +2380,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -2396,7 +2445,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         }
     },
     {
@@ -2468,7 +2518,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -2532,7 +2583,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         }
     },
     {
@@ -2576,7 +2628,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -2612,7 +2665,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Nov \u2013 Mar"
         }
     },
     {
@@ -2676,7 +2730,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Oct \u2013 Jul"
         },
         "southern": {
             "times_by_month": {
@@ -2732,7 +2787,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Apr \u2013 Jan"
         }
     },
     {
@@ -2776,7 +2832,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -2812,7 +2869,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Nov \u2013 Mar"
         }
     },
     {
@@ -2860,7 +2918,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Nov \u2013 Apr"
         },
         "southern": {
             "times_by_month": {
@@ -2900,7 +2959,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Oct"
         }
     },
     {
@@ -2932,7 +2992,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 Apr"
         },
         "southern": {
             "times_by_month": {
@@ -2956,7 +3017,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Sep \u2013 Oct"
         }
     },
     {
@@ -2992,7 +3054,8 @@
                     "end": 4,
                     "label": "9 PM - 4 AM"
                 }
-            }
+            },
+            "months": "Oct \u2013 Dec"
         },
         "southern": {
             "times_by_month": {
@@ -3020,7 +3083,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Apr \u2013 Jun"
         }
     },
     {
@@ -3068,7 +3132,8 @@
                 },
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Oct"
         },
         "southern": {
             "times_by_month": {
@@ -3108,7 +3173,8 @@
                     "end": 21,
                     "label": "4 AM - 9 PM"
                 }
-            }
+            },
+            "months": "Nov \u2013 Apr"
         }
     },
     {
@@ -3156,7 +3222,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Sep \u2013 Feb"
         },
         "southern": {
             "times_by_month": {
@@ -3196,7 +3263,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 Aug"
         }
     },
     {
@@ -3236,7 +3304,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Jun \u2013 Sep"
         },
         "southern": {
             "times_by_month": {
@@ -3268,7 +3337,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Dec \u2013 Mar"
         }
     },
     {
@@ -3320,7 +3390,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Mar \u2013 May; Sep \u2013 Dec"
         },
         "southern": {
             "times_by_month": {
@@ -3364,7 +3435,8 @@
                     "label": "All day"
                 },
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 Jun; Sep \u2013 Nov"
         }
     },
     {
@@ -3412,7 +3484,8 @@
                     "label": "All day"
                 },
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 May; Sep \u2013 Nov"
         },
         "southern": {
             "times_by_month": {
@@ -3452,7 +3525,8 @@
                     "label": "All day"
                 },
                 "12": null
-            }
+            },
+            "months": "Mar \u2013 May; Sep \u2013 Nov"
         }
     },
     {
@@ -3492,7 +3566,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "May \u2013 Aug"
         },
         "southern": {
             "times_by_month": {
@@ -3524,7 +3599,8 @@
                     "end": 9,
                     "label": "4 PM - 9 AM"
                 }
-            }
+            },
+            "months": "Nov \u2013 Feb"
         }
     },
     {
@@ -3568,7 +3644,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "Oct \u2013 Feb"
         },
         "southern": {
             "times_by_month": {
@@ -3604,7 +3681,8 @@
                 "10": null,
                 "11": null,
                 "12": null
-            }
+            },
+            "months": "Apr \u2013 Aug"
         }
     },
     {
@@ -3676,7 +3754,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         },
         "southern": {
             "times_by_month": {
@@ -3740,7 +3819,8 @@
                     "end": 24,
                     "label": "All day"
                 }
-            }
+            },
+            "months": "All year"
         }
     }
 ]
