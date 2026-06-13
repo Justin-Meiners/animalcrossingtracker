@@ -5,7 +5,7 @@ import { isAvailableNow } from "../tools/Availability.ts"
 import { useCritters } from "../hooks/useCritters"
 import { useCatches } from "../context/CatchContext"
 import { useHemisphere } from "../context/HemisphereContext"
-import { useState, useMemo } from "react"
+import { useState, useMemo, useRef, useEffect } from "react"
 
 function Fish() {
     const { critters: fish, loading, error } = useCritters("fish");
@@ -14,10 +14,27 @@ function Fish() {
     const [showAvailabilityOnly, setShowAvailabilityOnly] = useState(false);
     const [showUncaughtOnly, setShowUncaughtOnly] = useState(false);
     const [selectFish, setSelectFish] = useState<number | null>(null);
+    const [exitingId, setExitingId] = useState<number | null>(null);
+    const infoRef = useRef<HTMLDivElement>(null);
 
     const toggleSelectFish = (id: number) => {
-        setSelectFish(prev => prev === id ? null : id);
+        if (selectFish === id) {
+            setExitingId(id);
+            setSelectFish(null);
+        } else {
+            setExitingId(null);
+            setSelectFish(id);
+        }
     };
+
+    useEffect(() => {
+        if (selectFish !== null && window.innerWidth <= 580) {
+            infoRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+    }, [selectFish]);
+
+    const displayId = selectFish ?? exitingId;
+    const isExiting = selectFish === null && exitingId !== null;
 
     const caughtSet = useMemo(
         () => new Set(fish.filter(f => isCaught('fish', f.id)).map(f => f.id)),
@@ -44,7 +61,7 @@ function Fish() {
                 onToggleAvailable={() => setShowAvailabilityOnly(!showAvailabilityOnly)}
                 onToggleCaught={() => setShowUncaughtOnly(!showUncaughtOnly)}
             />
-            <div className="fish-content">
+            <div className={"fish-content" + (displayId !== null ? " has-selection" : "")}>
                 <CritterGrid
                     critters={filteredFish}
                     caughtCritters={caughtSet}
@@ -52,12 +69,20 @@ function Fish() {
                     hemisphere={hemisphere}
                     onToggleSelect={toggleSelectFish}
                 />
-                <CritterInfo
-                    critter={selectFish !== null ? filteredFish.find(f => f.id === selectFish) : null}
-                    hemisphere={hemisphere}
-                    caught={selectFish !== null ? isCaught('fish', selectFish) : false}
-                    onToggleCaught={() => { if (selectFish !== null) toggleCaught('fish', selectFish); }}
-                />
+                {displayId !== null && (
+                    <div
+                        ref={infoRef}
+                        className={"critter-info-wrapper" + (isExiting ? " is-exiting" : "")}
+                        onAnimationEnd={() => { if (isExiting) setExitingId(null); }}
+                    >
+                        <CritterInfo
+                            critter={filteredFish.find(f => f.id === displayId)}
+                            hemisphere={hemisphere}
+                            caught={isCaught('fish', displayId)}
+                            onToggleCaught={() => toggleCaught('fish', displayId)}
+                        />
+                    </div>
+                )}
             </div>
         </>
     )

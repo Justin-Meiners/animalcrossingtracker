@@ -23,6 +23,7 @@ function Home() {
 
     const fishNow = fish.filter(f => isAvailableNow(f[hemisphere]?.times_by_month ?? f.northern.times_by_month)).length;
     const bugsNow = bugs.filter(b => isAvailableNow(b[hemisphere]?.times_by_month ?? b.northern.times_by_month)).length;
+    const seaNow = sea.filter(s => isAvailableNow(s[hemisphere]?.times_by_month ?? s.northern.times_by_month)).length;
 
     const leaving = allCritters.filter(c => inMonth(c, hemisphere, month) && !inMonth(c, hemisphere, nextMonth));
     const arriving = allCritters.filter(c => inMonth(c, hemisphere, month) && !inMonth(c, hemisphere, prevMonth));
@@ -63,8 +64,8 @@ function Home() {
                     <span className="stat-label">Bugs available now</span>
                 </div>
                 <div className="stat-card">
-                    <span className="stat-number">{leaving.length}</span>
-                    <span className="stat-label">Leaving after {monthName}</span>
+                    <span className="stat-number">{seaNow}</span>
+                    <span className="stat-label">Sea creatures available now</span>
                 </div>
             </section>
 

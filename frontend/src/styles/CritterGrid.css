@@ -2,12 +2,22 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
-    flex: 7;
+    flex: 0 0 70%;
+    min-width: 0;
+    margin-left: 15%;
+    transition: margin-left 300ms ease;
+}
+
+.has-selection .critter-grid {
+    margin-left: 0;
 }
 
 @media (max-width: 580px) {
     .critter-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
+        margin-left: 0;
+        flex: none;
+        width: 100%;
     }
 }

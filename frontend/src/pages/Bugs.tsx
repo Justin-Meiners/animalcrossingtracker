@@ -5,7 +5,7 @@ import { isAvailableNow } from "../tools/Availability.ts"
 import { useCritters } from "../hooks/useCritters"
 import { useCatches } from "../context/CatchContext"
 import { useHemisphere } from "../context/HemisphereContext"
-import { useState, useMemo } from "react"
+import { useState, useMemo, useRef, useEffect } from "react"
 
 function Bugs() {
     const { critters: bugs, loading, error } = useCritters("bug");
@@ -14,10 +14,27 @@ function Bugs() {
     const [showAvailabilityOnly, setShowAvailabilityOnly] = useState(false);
     const [showUncaughtOnly, setShowUncaughtOnly] = useState(false);
     const [selectBug, setSelectBug] = useState<number | null>(null);
+    const [exitingId, setExitingId] = useState<number | null>(null);
+    const infoRef = useRef<HTMLDivElement>(null);
 
     const toggleSelectBug = (id: number) => {
-        setSelectBug(prev => prev === id ? null : id);
+        if (selectBug === id) {
+            setExitingId(id);
+            setSelectBug(null);
+        } else {
+            setExitingId(null);
+            setSelectBug(id);
+        }
     };
+
+    useEffect(() => {
+        if (selectBug !== null && window.innerWidth <= 580) {
+            infoRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+    }, [selectBug]);
+
+    const displayId = selectBug ?? exitingId;
+    const isExiting = selectBug === null && exitingId !== null;
 
     const caughtSet = useMemo(
         () => new Set(bugs.filter(b => isCaught('bug', b.id)).map(b => b.id)),
@@ -44,7 +61,7 @@ function Bugs() {
                 onToggleAvailable={() => setShowAvailabilityOnly(!showAvailabilityOnly)}
                 onToggleCaught={() => setShowUncaughtOnly(!showUncaughtOnly)}
             />
-            <div className="fish-content">
+            <div className={"fish-content" + (displayId !== null ? " has-selection" : "")}>
                 <CritterGrid
                     critters={filteredBugs}
                     caughtCritters={caughtSet}
@@ -52,12 +69,20 @@ function Bugs() {
                     hemisphere={hemisphere}
                     onToggleSelect={toggleSelectBug}
                 />
-                <CritterInfo
-                    critter={selectBug !== null ? filteredBugs.find(b => b.id === selectBug) : null}
-                    hemisphere={hemisphere}
-                    caught={selectBug !== null ? isCaught('bug', selectBug) : false}
-                    onToggleCaught={() => { if (selectBug !== null) toggleCaught('bug', selectBug); }}
-                />
+                {displayId !== null && (
+                    <div
+                        ref={infoRef}
+                        className={"critter-info-wrapper" + (isExiting ? " is-exiting" : "")}
+                        onAnimationEnd={() => { if (isExiting) setExitingId(null); }}
+                    >
+                        <CritterInfo
+                            critter={filteredBugs.find(b => b.id === displayId)}
+                            hemisphere={hemisphere}
+                            caught={isCaught('bug', displayId)}
+                            onToggleCaught={() => toggleCaught('bug', displayId)}
+                        />
+                    </div>
+                )}
             </div>
         </>
     )
