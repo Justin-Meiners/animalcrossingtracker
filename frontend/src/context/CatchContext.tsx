@@ -84,12 +84,12 @@ export function CatchProvider({ children }: { children: ReactNode }) {
     }, [username]);
 
     const isCaught = useCallback(
-        (type: 'fish' | 'bug', id: number) => catches.has(`${type}-${id}`),
+        (type: 'fish' | 'bug' | 'sea', id: number) => catches.has(`${type}-${id}`),
         [catches]
     );
 
     const toggleCaught = useCallback(
-        (type: 'fish' | 'bug', id: number) => {
+        (type: 'fish' | 'bug' | 'sea', id: number) => {
             const key = `${type}-${id}`;
             const nowCaught = !catches.has(key);
 
